@@ -1,0 +1,484 @@
+/* -----------INDEX----------- */
+
+@media(max-width: 768px){
+
+    .video-call img{
+        height: 350px;
+    }
+
+    .solicitar-orcamento p{
+        font-size: 25px;
+    }
+
+    .solicitar-orcamento p span{
+        font-size: 70px;
+    }
+
+    .solicitar-orcamento button{
+        margin-top: 10px;
+        margin-bottom: 100px;
+        max-width: 380px;
+    }
+
+    .cabecalho{
+        display: block;
+    }
+
+    .cabecalho .menu{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .cabecalho .menu ul{
+        padding-right: 0;
+    }
+
+}
+
+@media(max-width:  503px){
+
+    .solicitar-orcamento p span{
+        font-size: 60px;
+    }
+
+    .solicitar-orcamento button{
+        max-width: 330px;
+    }
+
+}
+
+
+@media(max-width: 425px){
+
+.cabecalho .logo{
+    display: block;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.cabecalho .menu ul li a{
+    font-size: 20px;
+}
+
+.video-call img{
+    height: 220px;
+}
+
+.solicitar-orcamento p{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+    .solicitar-orcamento p span{
+    font-size: 45px;
+}
+
+.solicitar-orcamento button{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 330px;
+    height: 50px;
+}
+
+.solicitar-orcamento button a{
+    font-size: 25px;
+}
+
+}
+
+@media(max-width: 375px){
+
+    .cabecalho .logo{
+        font-size: 50px;
+        
+    }
+
+    .cabecalho .menu ul li{
+        padding: 0 20px;
+    }
+
+    .cabecalho .menu ul li a{
+        font-size: 17px;
+    }
+    
+    .video-call img{
+        height: 200px;
+    }
+
+    .solicitar-orcamento p{
+        font-size: 17px;
+        line-height: 40px;
+
+    }
+
+    .solicitar-orcamento p span{
+        font-size: 30px;
+    }
+
+    .solicitar-orcamento button{
+        margin-top: 10px;
+        margin-bottom: 100px;
+        width: 250px;
+        height: 50px;
+    }
+
+    .solicitar-orcamento button a{
+        font-size: 20px;
+    } */
+
+}
+
+
+/* -----------SERVICOS----------- */
+@media(max-width: 1215px){
+
+    
+
+    .servicos div img{
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .servicos div{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+    .servicos div ul{
+        margin-top: 50px;
+        
+    }
+
+    .servicos div img{
+        height: 350px;
+        margin-top: 40px;
+    }
+
+    .formulario {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario input{
+        width: 380px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+    
+
+    .formulario button{
+        width: 350px;
+    }
+
+
+}
+
+@media (max-width: 425px){
+
+    .servicos div img{
+        height: 250px;
+    }
+
+    .servicos div ul li{
+        font-size: 20px;
+        padding: 5px;
+
+
+    }
+    .formulario label{
+        font-size: 20px;
+    }
+
+    .formulario input{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .formulario button{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .servicos div img{
+        height: 200px;
+    }
+
+    .servicos div ul li{
+        font-size: 17px;
+        padding: 5px;
+
+    }
+
+    .formulario label{
+        font-size: 17px;
+    }
+
+    
+    .formulario input{
+        width: 250px;
+        height: 50px;
+        font-size: 17px;
+        
+    }
+
+    .formulario button{
+        width: 250px;
+        height: 50px;
+        font-size: 17px;
+    }
+}
+
+/* -----------CONTATO----------- */
+
+@media (max-width: 1215px){
+
+    .cards .card-1,
+    .cards .card-2{
+        width: 450px;
+    }
+
+    .cards .card-1 .btn,
+    .cards .card-2 .btn{
+        width: 4em ;
+        height: 4em;
+        margin: 10px;
+    }
+
+    .cards .card-1 p,
+    .cards .card-2 p{
+       font-size: 15px;
+       padding: 10px;
+       width: 71%;
+    }
+
+    .cards .card-2{
+        padding-bottom: 20px;
+    }
+
+    .cards .card-1 span,
+    .cards .card-2 span{        
+        font-size: 15px;
+    }
+
+    .corporativo p,
+    .sobre p,
+    .contato p,
+    .redes-sociais p{
+        font-size: 18px;
+    }
+
+    .corporativo p{
+        margin-top: 45px;
+    }
+
+    .corporativo h2{
+        font-size: 35px;
+    }
+
+
+    .sobre h2,
+    .contato h2,
+    .redes-sociais h2{
+        font-size: 25px;
+    }
+
+    .redes-sociais div{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 950px){
+    .redes-sociais div{
+        height: 2em;
+    }
+}
+
+@media (max-width: 900px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card-1,
+    .cards .card-2{
+        margin-bottom: 20px;
+        width: 500px;
+        height: 110px;
+    }
+
+    .cards .card-1 p,
+    .cards .card-2 p{
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .cabecalho .logo{
+        font-size: 40px;
+    }
+
+    .cards .card-1,
+    .cards .card-2{
+        width: 400px;
+    }
+
+    .cards .card-1 .btn,
+    .cards .card-2 .btn{
+        width: 3.2em ;
+        height: 3.2em;
+        margin: 10px;
+    }
+
+    .cards .card-1 p,
+    .cards .card-2 p{
+       padding: 10px;
+       width: 71%;
+    }
+
+    .cards .card-1 span,
+    .cards .card-2 span{
+        font-size: 13px;
+    }
+
+    .corporativo p,
+    .sobre p,
+    .contato p,
+    .redes-sociais p{
+        font-size: 14px;
+    }
+
+    .corporativo p{
+        margin-top: 30px;
+    }
+
+    .sobre p{
+        margin-top: 40px;
+    }
+
+    .contato p{
+        line-height: 25px;
+        margin-top: 36px;
+    }
+
+    .corporativo h2{
+        font-size: 30px;
+    }
+
+
+    .sobre h2,
+    .contato h2,
+    .redes-sociais h2{
+        font-size: 20px;
+    }
+
+    .redes-sociais div{
+        width: 80%;
+        height: 1.6em;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 425px){
+    .cards .card-1,
+    .cards .card-2{
+        height: 100px;
+    }
+
+    .cards .card-1 p,
+    .cards .card-2 p{
+        font-size: 12px;
+    }
+
+    .cards .card-1 span,
+    .cards .card-2 span{
+        font-size: 12px ;
+    }
+
+    .rodape-contato{
+        display: block;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .corporativo,
+    .sobre,
+    .contato,
+    .redes-sociais{
+        margin: 0;
+        width: 100%;
+    }
+
+    .corporativo h2,
+    .sobre h2,
+    .contato h2,
+    .redes-sociais h2{
+        margin-top: 20px;
+    }
+
+    .corporativo h2{
+        text-align: center;
+    }
+
+    .corporativo p{
+        text-align: center;
+    }
+
+    .corporativo p,
+    .sobre p,
+    .contato p,
+    .redes-sociais p{
+        margin-top: 5px;
+    }
+
+    .redes-sociais .redes-sociais-logos{
+        padding-left: 0;
+        margin-top: 20px;
+        width: 40%;
+        text-align: center;
+
+    }
+
+    @media (max-width:375px){
+
+        .cards .card-1,
+        .cards .card-2{
+            width: 350px;
+        }
+
+        .cards .card-1 p,
+        .cards .card-2 p{
+            width: 80%;
+        }
+
+    }
+}

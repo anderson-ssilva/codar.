@@ -1,0 +1,261 @@
+/* -----------------INICIO----------------- */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.cabecalho .logo{
+    padding: 0 25px;
+    color: var(--cor-padrao);
+    font-size: 60PX;
+    font-weight: 600;
+}
+
+
+.cabecalho .logo span{
+    color: black;
+    font-size: 60PX;
+}
+
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu ul{
+    display: flex;
+    padding: 0 50px 0 0;
+}
+
+.menu ul li{
+    padding: 0 30px;
+}
+
+.menu ul li a:hover{
+    background-color: var(--cor-padrao);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.video-call img{
+    height: 400px;
+}
+
+.solicitar-orcamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.solicitar-orcamento p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+.solicitar-orcamento p span{
+    color: var(--cor-padrao);
+    font-size: 72px;
+}
+
+.solicitar-orcamento button{
+    background-color: var(--cor-padrao);
+    border: none;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.solicitar-orcamento button a{
+    color: white;
+    font-size: 30px;
+}
+
+/* -----------------SERVIÇOS----------------- */
+
+.servicos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.servicos div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.servicos div ul li{
+    list-style: square inside url(../images/list-icon_30x30.png);
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.servicos div img{
+    height: 400px;
+}
+
+.formulario{
+    line-height: 55px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.formulario input{
+    border: none;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    height: 55px;
+    width: 300px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.formulario button{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor-padrao);
+    width: 300px;
+    height: 55px;
+}
+
+.formulario a{
+    color: white;
+}
+
+/* -----------------CONTATO----------------- */
+
+.principal-contato{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards .card-1,
+.cards .card-2{
+    background-color: #eeeeee;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+
+.cards .card-1 .btn,
+.cards .card-2 .btn{
+    width: 5em;
+    height: 5em;
+    border: none;
+    border-radius: 180px;
+    background-color: var(--cor-padrao);
+    margin: 15px;
+}
+
+.cards .card-1 p,
+.cards .card-2 p{
+    padding: 15px;
+    width: 71%;
+}
+
+.cards .card-1 span,
+.cards .card-2 span{
+    font-weight: bold;
+}
+
+.rodape-contato{
+    background-color: black;
+    width: 100vw;
+    height: 42.7vh;
+    color: white;
+    display: flex;
+}
+
+.corporativo,
+.contato,
+.sobre,
+.redes-sociais{
+    width: 25vw;
+    padding-left: 20px;
+}
+
+.corporativo h2{
+    font-size: 50px;
+    margin-top: 46px;
+}
+
+.contato h2,
+.sobre h2,
+.redes-sociais h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.corporativo p{
+    margin-top: 30px;
+}
+
+.contato p{
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.sobre p,
+.redes-sociais p{
+    margin-top: 50px;
+}
+
+
+.redes-sociais div{
+    height: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 50px;
+    
+}
+
